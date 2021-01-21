@@ -1,0 +1,17 @@
+.shop-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 550px;
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px;
+  
+  .header-shop{
+    padding-left: 25px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: .5rem;
+  }
+}

@@ -1,0 +1,38 @@
+.shop-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 600px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+  .item__counter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    .counter-plus{
+      border: none;
+      border-radius: 100%;
+      width: 25px;
+      height: 25px;
+      background-color: rgb(25, 140, 212);
+      margin-right: .5rem;
+    }
+    .counter-minus{
+      border: none;
+      border-radius: 100%;
+      width: 25px;
+      height: 25px;
+      background-color: rgb(25, 140, 212);
+      margin-left: .5rem;
+    }
+  }
+  .item-photo{
+    img{
+      border-radius: 100%;
+      height: 80px;
+      width: 80px;
+    }
+  }
+}
